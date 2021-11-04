@@ -10,9 +10,24 @@
 </head>
 
 <body>
-    <div id="container">
+    <div class="container">
         <h1>APT WEG</h1>
-        <h2></h2>
+        <div id="box">
+            
+            <input style="display:none" type="checkbox" id="checkboxConsulta" >
+            <label id="labelConculta" class="bt" for="checkboxConsulta"> CONSULTAR MÁQUINA</label> 
+               <br><br>
+            <nav id="boxConsultar">
+             
+                <input class="bt" style="border: white !important;" id="inputConsulta" type="text" placeholder="ID DA MÁQUINA"><br>
+                <button style="background-color: black; color: white;" class="bt" type="submit">PESQUISAR</button>        
+                <br><br>
+            </nav>
+        </div>
+
+        <button class="bt"id="btCadastrar">CADASTRADAS</button>
+        <br><br>
+        <button class="bt" id="btRecente">RECENTE</button>
     </div>
 
 

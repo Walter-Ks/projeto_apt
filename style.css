@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background: linear-gradient(blue, rgb(2, 202, 247), blue) no-repeat;
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    margin: 0;
+    overflow: hidden;
+}
+
+#boxConsultar{
+    display: none;
+}
+
+#inputConsulta{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#checkboxConsulta:checked ~ #boxConsultar{
+    display: block;
+}
+
+.bt{
+    padding: 5px;
+    border: solid 1px white;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
